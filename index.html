@@ -11,6 +11,10 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
+  <!-- FULL WEBSITE SPACE BACKGROUND -->
+  <canvas id="particle-canvas" aria-hidden="true"></canvas>
+
   <div class="cursor-glow" aria-hidden="true"></div>
   <div class="noise" aria-hidden="true"></div>
 
@@ -35,7 +39,6 @@
 
   <main id="home">
     <section class="hero section container">
-      <canvas id="particle-canvas" aria-hidden="true"></canvas>
 
       <div class="hero-visual reveal reveal-delay">
         <div class="orbit orbit-one"></div>
@@ -74,7 +77,7 @@
         </div>
         <div class="socials">
           <a href="https://github.com/kedarchimman" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="https://www.linkedin.com/in/kedarnath-c-203732306/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/kedarnath-chimman/" target="_blank" rel="noreferrer">LinkedIn</a>
           <a href="mailto:chimmankedarnath1805@gmail.com">Email</a>
         </div>
       </div>
@@ -142,38 +145,154 @@
     </section>
 
     <section id="projects" class="section container">
-      <div class="section-heading reveal"><span class="section-number">03</span><h2>Projects</h2></div>
-      <div class="projects-grid">
-        <article class="project-card glass tilt-card reveal">
-          <div class="project-top"><span class="project-tag">Cloud + DevOps</span><span>01</span></div>
-          <h3>Smart Attendance System Internal</h3>
-          <p>Deployment-focused internship project involving Docker containerization, AWS infrastructure, CI/CD automation and troubleshooting.</p>
-          <div class="stack"><span>AWS</span><span>Docker</span><span>GitHub Actions</span><span>RDS</span></div>
-          <div class="project-links"><span>Case study</span><a href="https://github.com/kedarchimman" target="_blank" rel="noreferrer">GitHub profile ↗</a></div>
-        </article>
-        <article class="project-card glass tilt-card reveal reveal-delay">
-          <div class="project-top"><span class="project-tag">Frontend + Backend</span><span>02</span></div>
-          <h3>Parallel E-commerce</h3>
-          <p>Worked as a Frontend and Backend Developer during internship on a web application project.</p>
-          <div class="stack"><span>Web</span><span>Frontend</span><span>Backend</span></div>
-          <div class="project-links"><span>Internship project</span><a href="#contact">Ask me ↗</a></div>
-        </article>
-        <article class="project-card glass tilt-card reveal">
-          <div class="project-top"><span class="project-tag">Full Stack</span><span>03</span></div>
-          <h3>Tech-threads</h3>
-          <p>Full-stack web application focused on creating, sharing, editing and interacting with technical posts in real time.</p>
-          <div class="stack"><span>Web App</span><span>Real-time</span><span>Full Stack</span></div>
-          <div class="project-links"><span>Internship project</span><a href="#contact">Ask me ↗</a></div>
-        </article>
-        <article class="project-card featured glass tilt-card reveal reveal-delay">
-          <div class="project-top"><span class="project-tag">Kubernetes Practice</span><span>04</span></div>
-          <h3>Microservices Kubernetes Practice</h3>
-          <p>Hands-on microservices practice using Docker and Kubernetes manifests, reflecting a continued focus on container orchestration.</p>
-          <div class="stack"><span>Python</span><span>Docker</span><span>Kubernetes</span></div>
-          <div class="project-links"><a href="https://github.com/kedarchimman/microservices-kubernetes-practice" target="_blank" rel="noreferrer">Open repository ↗</a></div>
-        </article>
+
+  <div class="section-heading reveal">
+    <span class="section-number">03</span>
+    <h2>Projects</h2>
+  </div>
+
+  <div class="projects-grid">
+
+    <!-- PROJECT 01 -->
+    <article class="project-card glass tilt-card reveal">
+
+      <div class="project-top">
+        <span class="project-tag">Cloud + DevOps</span>
+        <span>01</span>
       </div>
-    </section>
+
+      <h3>Smart Attendance System Internal</h3>
+
+      <p>
+        Web application deployment project involving Docker
+        containerization, AWS infrastructure, CI/CD automation,
+        database configuration and troubleshooting.
+      </p>
+
+      <div class="stack">
+        <span>AWS</span>
+        <span>Docker</span>
+        <span>GitHub Actions</span>
+        <span>RDS</span>
+      </div>
+
+      <div class="project-links">
+        <span>Internal Project</span>
+
+        <a href="#experience">
+          View Experience ↗
+        </a>
+      </div>
+
+    </article>
+
+
+    <!-- PROJECT 02 -->
+    <article class="project-card glass tilt-card reveal reveal-delay">
+
+      <div class="project-top">
+        <span class="project-tag">Frontend + Backend</span>
+        <span>02</span>
+      </div>
+
+      <h3>Parallel E-commerce</h3>
+
+      <p>
+        Full-stack web application project where I contributed
+        to both frontend and backend development during my work
+        at Two Elephants Technologies LLP.
+      </p>
+
+      <div class="stack">
+        <span>Web Application</span>
+        <span>Frontend (Vue.js, Quasar Framework)</span>
+        <span>Backend ( Python, Fast API's)</span>
+      </div>
+
+      <div class="project-links">
+        <span>Internship Project</span>
+
+        <a href="#experience">
+          View Experience ↗
+        </a>
+      </div>
+
+    </article>
+
+
+    <!-- PROJECT 03 -->
+    <article class="project-card glass tilt-card reveal">
+
+      <div class="project-top">
+        <span class="project-tag">Full Stack</span>
+        <span>03</span>
+      </div>
+
+      <h3>Tech-threads</h3>
+
+      <p>
+        Full-stack web application focused on creating,
+        sharing, editing and interacting with technical
+        posts in real time.
+      </p>
+
+      <div class="stack">
+        <span>Web App</span>
+        <span>Real-time</span>
+        <span>Frontend</span>
+      </div>
+
+      <div class="project-links">
+        <span>Internship Project</span>
+
+        <a href="#experience">
+          View Experience ↗
+        </a>
+      </div>
+
+    </article>
+
+
+    <!-- PROJECT 04 -->
+    <article class="project-card featured glass tilt-card reveal reveal-delay">
+
+      <div class="project-top">
+        <span class="project-tag">Kubernetes Practice</span>
+        <span>04</span>
+      </div>
+
+      <h3>Microservices Kubernetes Practice</h3>
+
+      <p>
+        Hands-on microservices practice focused on Docker
+        containerization and Kubernetes orchestration,
+        deployment and troubleshooting.
+      </p>
+
+      <div class="stack">
+        <span>Python</span>
+        <span>Docker</span>
+        <span>Kubernetes</span>
+        <span>PostgreSQL</span>
+      </div>
+
+      <div class="project-links">
+        <span>GitHub Repository</span>
+
+        <a
+          href="https://github.com/kedarchimman/microservices-kubernetes-practice"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Open Repository ↗
+        </a>
+      </div>
+
+    </article>
+
+  </div>
+
+</section>
 
     <section id="experience" class="section container">
 
@@ -312,27 +431,35 @@
   <div class="education-secondary glass">
 
     <div class="education-secondary-info">
-      <span class="education-year">Higher Secondary Education</span>
+
+      <span class="education-year">
+        2022
+      </span>
 
       <h3>12th Science</h3>
 
       <p>
         Dayanand College of Arts and Science, Solapur
       </p>
+
     </div>
 
     <div class="education-secondary-grade">
-      <strong>55.50%</strong>
+      <strong>55%</strong>
       <span>Percentage</span>
     </div>
 
   </div>
 
+
   <!-- 10th -->
   <div class="education-secondary glass">
 
     <div class="education-secondary-info">
-      <span class="education-year">Secondary School Education</span>
+
+      <span class="education-year">
+        2020
+      </span>
 
       <h3>10th</h3>
 
@@ -340,10 +467,11 @@
         Padmashri Sumatibai English Medium Technical High School,
         Solapur
       </p>
+
     </div>
 
     <div class="education-secondary-grade">
-      <strong>80.20%</strong>
+      <strong>80%</strong>
       <span>Percentage</span>
     </div>
 
@@ -354,25 +482,168 @@
 </section>
 
     <section id="resume" class="section container">
-      <div class="resume-banner glass reveal">
-        <div><span class="eyebrow">Resume</span><h2>Want the full picture?</h2><p>Download my latest resume for detailed experience, skills and project information.</p></div>
-        <a class="btn btn-primary magnetic" href="Kedarnath-Chimman-Resume.pdf" download>Download PDF <span>↓</span></a>
-      </div>
-    </section>
 
-    <section id="contact" class="section container">
-      <div class="section-heading reveal"><span class="section-number">06</span><h2>Let's Connect</h2></div>
-      <div class="contact-grid">
-        <div class="contact-copy reveal"><h3>Have a project, role or collaboration in mind?</h3><p>Feel free to connect with me about cloud, DevOps, software development or practical learning projects.</p><div class="contact-links"><a href="mailto:chimmankedarnath1805@gmail.com">Email</a><a href="https://www.linkedin.com/in/kedarnath-chimman/" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://github.com/kedarchimman" target="_blank" rel="noreferrer">GitHub</a></div></div>
-        <form class="contact-form glass reveal reveal-delay" id="contact-form">
-          <label>Name<input required name="name" placeholder="Your name" /></label>
-          <label>Email<input required type="email" name="email" placeholder="you@example.com" /></label>
-          <label>Message<textarea required name="message" rows="5" placeholder="Tell me what you want to build..."></textarea></label>
-          <button class="btn btn-primary" type="submit">Open Email <span>↗</span></button>
-          <p class="form-note">This static portfolio opens your email client; no backend is required.</p>
-        </form>
+  <div class="section-heading reveal">
+    <span class="section-number">06</span>
+    <h2>Resume</h2>
+  </div>
+
+  <div class="resume-banner glass reveal">
+
+    <div class="resume-content">
+
+      <span class="eyebrow">My Resume</span>
+
+      <h2>Want the full picture?</h2>
+
+      <p>
+        Explore my experience, technical skills, education and
+        project work in detail.
+      </p>
+
+    </div>
+
+    <div class="resume-actions">
+
+      <a
+        class="btn btn-secondary magnetic"
+        href="Kedarnath-Chimman-Resume.pdf"
+        target="_blank"
+        rel="noreferrer"
+      >
+        View Resume
+        <span>↗</span>
+      </a>
+
+      <a
+        class="btn btn-primary magnetic"
+        href="Kedarnath-Chimman-Resume.pdf"
+        download
+      >
+        Download PDF
+        <span>↓</span>
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section id="contact" class="section container">
+
+  <div class="section-heading reveal">
+    <span class="section-number">07</span>
+    <h2>Let's Connect</h2>
+  </div>
+
+  <div class="contact-grid">
+
+    <!-- LEFT SIDE -->
+    <div class="contact-copy reveal">
+
+      <span class="eyebrow">
+        Get In Touch
+      </span>
+
+      <h3>
+        Let's build something useful.
+      </h3>
+
+      <p>
+        I'm open to connecting about Cloud, DevOps, software development,
+        deployment, automation and practical technical projects.
+      </p>
+
+      <div class="contact-links">
+
+        <a href="mailto:chimmankedarnath1805@gmail.com">
+          Email
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/kedarnath-chimman/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          LinkedIn
+        </a>
+
+        <a
+          href="https://github.com/kedarchimman"
+          target="_blank"
+          rel="noreferrer"
+        >
+          GitHub
+        </a>
+
       </div>
-    </section>
+
+      <div class="contact-status">
+        <span class="status-dot"></span>
+        Open to professional opportunities & collaborations
+      </div>
+
+    </div>
+
+
+    <!-- RIGHT SIDE -->
+    <form
+      class="contact-form glass reveal reveal-delay"
+      id="contact-form"
+    >
+
+      <label>
+        Name
+
+        <input
+          required
+          name="name"
+          placeholder="Your name"
+        />
+      </label>
+
+      <label>
+        Email
+
+        <input
+          required
+          type="email"
+          name="email"
+          placeholder="you@example.com"
+        />
+      </label>
+
+      <label>
+        Message
+
+        <textarea
+          required
+          name="message"
+          rows="5"
+          placeholder="Tell me what you want to build..."
+        ></textarea>
+      </label>
+
+      <button
+        class="btn btn-primary magnetic"
+        type="submit"
+      >
+        Open Email
+        <span>↗</span>
+      </button>
+
+      <p class="form-note">
+        This static portfolio opens your email client;
+        no backend is required.
+      </p>
+
+    </form>
+
+  </div>
+
+</section>
+
   </main>
 
   <footer class="footer container"><span>© 2026 Kedarnath Chimman</span><span>AWS · Linux · Docker · Kubernetes · CI/CD · Python</span></footer>
